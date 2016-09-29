@@ -2,6 +2,7 @@ import tweepy
 import json
 from time import sleep
 from datetime import datetime
+import os
 
 # load keys from file handily named keys
 consumer_key, consumer_secret, access_token, access_token_secret = [key.strip() for key in open("keys")]
@@ -19,12 +20,19 @@ class StdOutListener(tweepy.StreamListener):
         #file names/handles for storing tweets
         self.fn = None
         self.fh = None
-        self.tweet_data_dir = "raw_data/tweet_stream/"
+
+        self.data_dir = "raw_data/"
+        if not os.path.exists(self.data_dir):
+            os.makedirs(self.data_dir)
+
+        self.tweet_data_dir = self.data_dir+"tweet_stream/"
+        if not os.path.exists(self.tweet_data_dir):
+            os.makedirs(self.tweet_data_dir)
 
         self.date_format = "%a %b %d %H:%M:%S +0000 %Y"
 
         #file handle for recording users to download
-        self.td_fh = open("raw_data/"+"users_to_download", "a+", 0)
+        self.td_fh = open(self.data_dir+"users_to_download", "a+", 0)
         self.seen_users = set([int(line.strip()) for line in self.td_fh])
 
 
