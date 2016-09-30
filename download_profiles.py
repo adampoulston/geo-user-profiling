@@ -52,10 +52,10 @@ def main():
 
 
     print "Starting."
-    dled_users_handle = open(data_dir+"downloaded_users","a+")
-    downloaded_users = set([int(line.strip().split(",")[0]) for line in dled_users_handle])
-    users_to_dl_handle = open(data_dir+"users_to_download")
-    users_to_download = [int(line.strip()) for line in users_to_dl_handle if int(line.strip()) not in downloaded_users]
+    with open(data_dir+"downloaded_users","a+") as dled_users_handle:
+        downloaded_users = set([int(line.strip().split(",")[0]) for line in dled_users_handle])
+    with open(data_dir+"users_to_download") as users_to_dl_handle:
+        users_to_download = [int(line.strip()) for line in users_to_dl_handle if int(line.strip()) not in downloaded_users]
     try:
         for uid in users_to_download:
             try:
@@ -64,17 +64,22 @@ def main():
                     with open(data_dir+profiles_dir+str(uid),"w+",0) as f:
                         for tweet in alltweets:
                             decoded = tweet._json
-                            f.write(json.dumps(decoded)"\n")
-                            dled_users_handle.write(str(uid)+"\n")
+                            f.write(json.dumps(decoded)+"\n")
                             downloaded_users.add(uid)
+                        with open(data_dir+"downloaded_users","a+",0) as dled_users_handle:
+                            dled_users_handle.write(str(uid)+"\n")
                 else:
-                    dled_users_handle.write(str(uid)+",no_tweets\n")
+                    with open(data_dir+"downloaded_users","a+",0) as dled_users_handle:
+                        dled_users_handle.write(str(uid)+",no_tweets\n")
                     downloaded_users.add(uid)
             except KeyboardInterrupt:
                 raise
-            except Exception, e:
-                dled_users_handle.write(str(uid)+",exception:"+str(e)+"\n")
+            except tweepy.TweepError, e:
+                with open(data_dir+"downloaded_users","a+") as dled_users_handle:
+                    dled_users_handle.write(str(uid)+",exception:"+str(e)+"\n")
                 downloaded_users.add(uid)
+                print "Tweepy error:",e[0]['code'],"("+e[0]['message']+")"
+            except Exception, e:
                 raise
     except KeyboardInterrupt:
         print "System exiting due to keyboard interrupt."
@@ -82,9 +87,7 @@ def main():
         print "Error in main:", str(e)
         sleep(30)
         main()
-    finally:
-        dled_users_handle.close()
-        users_to_dl_handle.close()
+
 
 
 if __name__ == '__main__':
