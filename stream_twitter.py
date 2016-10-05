@@ -38,28 +38,32 @@ class StdOutListener(tweepy.StreamListener):
 
 
     def on_data(self, data):
-        '''Assess and store streamed tweet'''
-        #load tweet into dictionary
-        decoded = json.loads(data)
-        
-        #check message is not empty/error
-        if 'user' in decoded and 'text' in decoded:
-            #remove newlines but replace with character for thouroughness
-            out_data = data.strip().replace("\r", "").replace("\n", "<newline>")+"\n"
+        try:
+            '''Assess and store streamed tweet'''
+            #load tweet into dictionary
+            decoded = json.loads(data)
+            
+            #check message is not empty/error
+            if 'user' in decoded and 'text' in decoded:
+                #remove newlines but replace with character for thouroughness
+                out_data = data.strip().replace("\r", "").replace("\n", "<newline>")+"\n"
 
-            #check whether or not we want to roll a new file
-            fn = get_filename(datetime.strptime(decoded['created_at'], self.date_format))
-            if fn != self.fn:
-                self.fn = fn
-                try: self.fh.close()
-                except: pass
-                self.fh = open(self.tweet_data_dir+self.fn,"a+", 0)
+                #check whether or not we want to roll a new file
+                fn = get_filename(datetime.strptime(decoded['created_at'], self.date_format))
+                if fn != self.fn:
+                    self.fn = fn
+                    try: self.fh.close()
+                    except: pass
+                    self.fh = open(self.tweet_data_dir+self.fn,"a+", 0)
 
-            #store tweet and user if not seen yet
-            self.fh.write(out_data)
-            if decoded["user"]["id"] not in self.seen_users:
-                self.seen_users.add(decoded["user"]["id"])
-                self.td_fh.write(str(decoded["user"]["id"])+"\n")
+                #store tweet and user if geolocated and not seen yet
+                self.fh.write(out_data)
+                if decoded["user"]["id"] not in self.seen_users:
+                    if decoded['coordinates']:
+                        self.seen_users.add(decoded["user"]["id"])
+                        self.td_fh.write(str(decoded["user"]["id"])+"\n")
+        except Exception, e:
+            print "Programming error:",str(e)
 
         return True
 
@@ -88,10 +92,10 @@ def main():
     except Exception, e:
         #TODO: Handle this in a way that isn't terrible
         #if an error occurs sleep until it go's away
-        print "Error:",str(e)
-        sleep(30)
-        main()
-
+        # print "Error:",str(e)
+        # sleep(30)
+        # main()
+        raise
     finally:
         try: self.fh.close()
         except: pass

@@ -16,6 +16,7 @@ def apply_haversine(c1, c2, miles=True):
 	return haversine(c1, c2, miles)
 
 def kmeans_num_clusters_jump_method(X, n):
+	""" Jump method to determine number of clusters in a dataset. """
 	Y = float(X[0].shape[0]) / 2.0
 	# print Y
 	D = [0] * n
@@ -29,11 +30,10 @@ def kmeans_num_clusters_jump_method(X, n):
 	J = np.array([D[i] - D[i-1] for i in range(1,n)])
 	dist = np.array(distortions)
 
-	# J = np.array([D[i+1]+D[i]-D[i-1] for i in range(1,n-1)])
-	# print J
 	return (np.argmax(J) + 1, dist)
 
 def geometric_median(points):
+	""" calculate the geometric median of a set of points """
     points = np.asarray(points)
     # objective function
     def aggregate_distance(x):
@@ -48,6 +48,7 @@ def geometric_median(points):
 
 class HomeLocationAssigner(object):
 	def assign_home(self, user_tweets, centroid_type="med"):
+
 		coordinates = np.array([t['coordinates']['coordinates'] for t in user_tweets if t['coordinates']])
 		if len(coordinates) <= 1:
 			raise Exception("More than one geolocated tweet required.")
@@ -57,12 +58,16 @@ class HomeLocationAssigner(object):
 		home_info = {}
 
 		n_clusters = 10
+		#n_clusters = kmeans_num_clusters_jump_method(coordinates, 20)
+		
 		#run kmeans
 		x, y = kmeans2(coordinates, n_clusters, iter = 20, minit='points')
+		
 		#get the most populous cluster and set it as home
 		cluster_counts = Counter(y).most_common()
 		home_cluster = cluster_counts[0][0]
-		#extract point in home cluster
+		
+		#extract points in home cluster
 		hc_members = coordinates[(y == home_cluster).nonzero()]
 
 		#home coordinate as average (kmeans default)
@@ -83,11 +88,13 @@ class HomeLocationAssigner(object):
 
 
 		
-		###############Non-individual profile filtering
-		#Give profile a point for each heuristic it hits
+		# Non-individual profile filtering
+		# TODO: Factor this out and improve it
+		# Give profile a point for each heuristic it hits
+		
 		points = 0
 
-		#Key phrase filtering
+		# phrases identified to appear in description fields of unwanted profiles
 		phrases = ["we offer", "contact us", "dealership", "we bring", 
 			"our website", "we are", "we help", "opportunities", "can help", 
 			"we ship", "range of services", "official twitter", "we have a passion", 
@@ -101,29 +108,26 @@ class HomeLocationAssigner(object):
 		for phrase in phrases:
 			if user['description']:
 				if phrase in user['description'].lower():
-					# print phrase + " : " + users[user]['description']
 					points += 1
 
 
-		#H1 - One suspiciously dense cluster
-		# if n_clusters == 1:
-		# 	points_in_clusters = []
-		# 	for i in range(0,np.unique(y).shape[0]):
-		# 		points_in_clusters.append([])
-		# 	for idx,cluster in enumerate(y):
-		# 		points_in_clusters[cluster].append((coordinates[idx][0],coordinates[idx][1]))
-		# 	cluster_means = []
-		# 	cluster_stds = []
-		# 	for idx, coord in enumerate(x):
-		# 		cluster_means.append(np.mean(cdist([coord], points_in_clusters[idx])))
-		# 		cluster_stds.append(np.std(cdist([coord], points_in_clusters[idx])))
-		# 	if cluster_means[home_cluster] < 0.01:
-		# 		points += 1
-		# 		# print cluster_stds
-		# 		# print cluster_means
-				
+		# one suspiciously dense cluster
+		if n_clusters == 1:
+			points_in_clusters = []
+			for i in range(0,np.unique(y).shape[0]):
+				points_in_clusters.append([])
+			for idx,cluster in enumerate(y):
+				points_in_clusters[cluster].append((coordinates[idx][0],coordinates[idx][1]))
+			cluster_means = []
+			cluster_stds = []
+			for idx, coord in enumerate(x):
+				cluster_means.append(np.mean(cdist([coord], points_in_clusters[idx])))
+				cluster_stds.append(np.std(cdist([coord], points_in_clusters[idx])))
+			if cluster_means[home_cluster] < 0.01:
+				points += 1
+			
 
-		#H2 - suprisingly consistent posting habits
+		# overly consistent posting habits
 		hour_hist = [0] * 24
 		hours = []
 		for tweet in user_tweets:
@@ -142,12 +146,12 @@ class HomeLocationAssigner(object):
 		# if hours_std < 4.0:
 		# 	points += 1
 
-		#H3 - suspicious follower/firend ratio
+		# suspicious follower/firend ratio
 		try:
 			rep = user['followers_count'] / (user['followers_count'] + user['friends_count'])
 		except:
 			rep = 0
-		#0.93 expertly chosen arbritarily
+		#0.93 chosen arbritarily
 		if rep > 0.93:
 			points += 1
 
