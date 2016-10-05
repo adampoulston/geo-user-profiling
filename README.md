@@ -10,7 +10,7 @@ This repo contains the data collection, profile labelling and classification scr
 ###Python
 The code here has been tested in `python 2.7.12` on Linux. Use of a tool such as [`pyenv`](https://github.com/yyuu/pyenv) (with [`virtualenv`](https://github.com/yyuu/pyenv-virtualenv)) to manage `python` versions is suggested. 
 
-Required packagesn listed in `requirements.txt` can be installed through `pip` (`pip install -r requirements.txt`). Packages requireing a little more work are listed in `additional_requirements.txt`.
+Required packages listed in `requirements.txt` can be installed through `pip` (`pip install -r requirements.txt`). Packages requireing a little more work are listed in `additional_requirements.txt`.
 
 ###Other 
 To label profiles with their output areas and local authorities, two shapefiles are required, please refer to the README in `shapefiles` for more info.
