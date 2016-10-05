@@ -1,0 +1,4 @@
+In addition to the requirements listed in requirements.txt, a few packages that take a little more work to install are also required:
+
+twokenize (just drop this in the same directory): https://github.com/ianozsvald/ark-tweet-nlp-python
+GDAL: https://pypi.python.org/pypi/GDAL/
