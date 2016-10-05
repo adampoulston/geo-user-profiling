@@ -1,0 +1,392 @@
+Supergroup,sg_name,Group,g_name,Subgroup,sug_name,Code,Name,RegionOrCountry
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000026,Allerdale,North West
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000048,Christchurch,South West
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,W06000003,Conwy,Wales
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E06000053,Isles of Scilly,South West
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E06000052,Cornwall
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000163,Craven,Yorkshire and The Humber
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000040,East Devon,South West
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000049,East Dorset,South West
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000137,East Lindsey,East Midlands
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000030,Eden,North West
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000119,Fylde,North West
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,W06000001,Isle of Anglesey,Wales
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000063,Lewes,South East
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000043,North Devon,South West
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000147,North Norfolk,East
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,W06000009,Pembrokeshire,Wales
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000051,Purbeck,South West
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000064,Rother,South East
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000044,South Hams,South West
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000031,South Lakeland,North West
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000045,Teignbridge,South West
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000076,Tendring,East
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000046,Torridge,South West
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000206,Waveney,East
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000047,West Devon,South West
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000052,West Dorset,South West
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000191,West Somerset,South West
+1,English and Welsh Countryside,1a,Rural Coastal and Amenity,1a1,Rural Coastal and Amenity,E07000128,Wyre,North West
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E07000200,Babergh,East
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E07000143,Breckland,East
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E06000011,East Riding of Yorkshire,Yorkshire and The Humber
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E06000019,"Herefordshire, County of",West Midlands
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E07000133,Melton,East Midlands
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E07000187,Mendip,South West
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E07000042,Mid Devon,South West
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E07000203,Mid Suffolk,East
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E07000175,Newark and Sherwood,East Midlands
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E07000050,North Dorset,South West
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E07000139,North Kesteven,East Midlands
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E07000188,Sedgemoor,South West
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E06000051,Shropshire,West Midlands
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E07000141,South Kesteven,East Midlands
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E07000149,South Norfolk,East
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E07000189,South Somerset,South West
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E07000197,Stafford,West Midlands
+1,English and Welsh Countryside,1b,Rural Hinterland,1b1,Traditional Rural,E07000142,West Lindsey,East Midlands
+1,English and Welsh Countryside,1b,Rural Hinterland,1b2,Prospering Rural,E07000079,Cotswold,South West
+1,English and Welsh Countryside,1b,Rural Hinterland,1b2,Prospering Rural,E07000235,Malvern Hills,West Midlands
+1,English and Welsh Countryside,1b,Rural Hinterland,1b2,Prospering Rural,E07000091,New Forest,South East
+1,English and Welsh Countryside,1b,Rural Hinterland,1b2,Prospering Rural,E06000024,North Somerset,South West
+1,English and Welsh Countryside,1b,Rural Hinterland,1b2,Prospering Rural,E06000017,Rutland,East Midlands
+1,English and Welsh Countryside,1b,Rural Hinterland,1b2,Prospering Rural,E07000221,Stratford-on-Avon,West Midlands
+1,English and Welsh Countryside,1b,Rural Hinterland,1b2,Prospering Rural,E07000082,Stroud,South West
+1,English and Welsh Countryside,1b,Rural Hinterland,1b2,Prospering Rural,E07000205,Suffolk Coastal,East
+1,English and Welsh Countryside,1b,Rural Hinterland,1b2,Prospering Rural,E07000083,Tewkesbury,South West
+1,English and Welsh Countryside,1b,Rural Hinterland,1b2,Prospering Rural,E07000065,Wealden,South East
+1,English and Welsh Countryside,1b,Rural Hinterland,1b2,Prospering Rural,E07000238,Wychavon,West Midlands
+1,English and Welsh Countryside,1b,Rural Hinterland,1b3,Remoter Rural,E07000144,Broadland,East
+1,English and Welsh Countryside,1b,Rural Hinterland,1b3,Remoter Rural,W06000010,Carmarthenshire,Wales
+1,English and Welsh Countryside,1b,Rural Hinterland,1b3,Remoter Rural,W06000004,Denbighshire,Wales
+1,English and Welsh Countryside,1b,Rural Hinterland,1b3,Remoter Rural,E07000035,Derbyshire Dales,East Midlands
+1,English and Welsh Countryside,1b,Rural Hinterland,1b3,Remoter Rural,E07000080,Forest of Dean,South West
+1,English and Welsh Countryside,1b,Rural Hinterland,1b3,Remoter Rural,E07000164,Hambleton,Yorkshire and The Humber
+1,English and Welsh Countryside,1b,Rural Hinterland,1b3,Remoter Rural,E07000146,King's Lynn and West Norfolk,East
+1,English and Welsh Countryside,1b,Rural Hinterland,1b3,Remoter Rural,W06000021,Monmouthshire,Wales
+1,English and Welsh Countryside,1b,Rural Hinterland,1b3,Remoter Rural,E06000057,Northumberland,North East
+1,English and Welsh Countryside,1b,Rural Hinterland,1b3,Remoter Rural,W06000023,Powys,Wales
+1,English and Welsh Countryside,1b,Rural Hinterland,1b3,Remoter Rural,E07000167,Ryedale,Yorkshire and The Humber
+1,English and Welsh Countryside,1c,Rural England,1c1,Established Rural,E07000234,Bromsgrove,West Midlands
+1,English and Welsh Countryside,1c,Rural England,1c1,Established Rural,E07000069,Castle Point,East
+1,English and Welsh Countryside,1c,Rural England,1c1,Established Rural,E07000029,Copeland,North West
+1,English and Welsh Countryside,1c,Rural England,1c1,Established Rural,E07000074,Maldon,East
+1,English and Welsh Countryside,1c,Rural England,1c1,Established Rural,E07000038,North East Derbyshire,East Midlands
+1,English and Welsh Countryside,1c,Rural England,1c1,Established Rural,E07000135,Oadby and Wigston,East Midlands
+1,English and Welsh Countryside,1c,Rural England,1c1,Established Rural,E07000124,Ribble Valley,North West
+1,English and Welsh Countryside,1c,Rural England,1c1,Established Rural,E07000075,Rochford,East
+1,English and Welsh Countryside,1c,Rural England,1c1,Established Rural,E07000196,South Staffordshire,West Midlands
+1,English and Welsh Countryside,1c,Rural England,1c1,Established Rural,E07000198,Staffordshire Moorlands,West Midlands
+1,English and Welsh Countryside,1c,Rural England,1c1,Established Rural,E07000127,West Lancashire,North West
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000032,Amber Valley,East Midlands
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000171,Bassetlaw,East Midlands
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E06000049,Cheshire East,North West
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E06000050,Cheshire West and Chester,North West
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000118,Chorley,North West
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000151,Daventry,East Midlands
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000152,East Northamptonshire,East Midlands
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000087,Fareham,South East
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000010,Fenland,East
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000131,Harborough,East Midlands
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000037,High Peak,East Midlands
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000132,Hinckley and Bosworth,East Midlands
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000194,Lichfield,West Midlands
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000218,North Warwickshire,West Midlands
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000134,North West Leicestershire,East Midlands
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000169,Selby,Yorkshire and The Humber
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000039,South Derbyshire,East Midlands
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000140,South Holland,East Midlands
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000126,South Ribble,North West
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000204,St Edmundsbury,East
+1,English and Welsh Countryside,1c,Rural England,1c2,Rural Hub Towns,E07000239,Wyre Forest,West Midlands
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000041,Angus,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000035,Argyll and Bute,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000005,Clackmannanshire,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000006,Dumfries and Galloway,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000008,East Ayrshire,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000010,East Lothian,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000014,Falkirk,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000015,Fife,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000017,Highland,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000018,Inverclyde,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000019,Midlothian,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000020,Moray,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000021,North Ayrshire,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000044,North Lanarkshire,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000024,Perth and Kinross,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000038,Renfrewshire,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000026,Scottish Borders,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000028,South Ayrshire,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000029,South Lanarkshire,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000030,Stirling,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000039,West Dunbartonshire,Scotland
+2,Scottish and Northern Irish Countryside,2a,Rural Scotland,2a1,Rural Scotland,S12000040,West Lothian,Scotland
+2,Scottish and Northern Irish Countryside,2b,"Rural Northern Ireland, Remoter Scotland and Glasgow Suburbs",2b1,Rural Northern Ireland,N09000001,Antrim and Newtownabbey,Northern Ireland
+2,Scottish and Northern Irish Countryside,2b,"Rural Northern Ireland, Remoter Scotland and Glasgow Suburbs",2b1,Rural Northern Ireland,N09000002,"Armagh, Banbridge and Craigavon",Northern Ireland
+2,Scottish and Northern Irish Countryside,2b,"Rural Northern Ireland, Remoter Scotland and Glasgow Suburbs",2b1,Rural Northern Ireland,N09000004,Causeway Coast and Glens,Northern Ireland
+2,Scottish and Northern Irish Countryside,2b,"Rural Northern Ireland, Remoter Scotland and Glasgow Suburbs",2b1,Rural Northern Ireland,N09000005,Derry and Strabane,Northern Ireland
+2,Scottish and Northern Irish Countryside,2b,"Rural Northern Ireland, Remoter Scotland and Glasgow Suburbs",2b1,Rural Northern Ireland,N09000006,Fermanagh and Omagh,Northern Ireland
+2,Scottish and Northern Irish Countryside,2b,"Rural Northern Ireland, Remoter Scotland and Glasgow Suburbs",2b1,Rural Northern Ireland,N09000007,Lisburn and Castlereagh,Northern Ireland
+2,Scottish and Northern Irish Countryside,2b,"Rural Northern Ireland, Remoter Scotland and Glasgow Suburbs",2b1,Rural Northern Ireland,N09000008,Mid and East Antrim,Northern Ireland
+2,Scottish and Northern Irish Countryside,2b,"Rural Northern Ireland, Remoter Scotland and Glasgow Suburbs",2b1,Rural Northern Ireland,N09000009,Mid Ulster,Northern Ireland
+2,Scottish and Northern Irish Countryside,2b,"Rural Northern Ireland, Remoter Scotland and Glasgow Suburbs",2b1,Rural Northern Ireland,N09000010,"Newry, Mourne and Down",Northern Ireland
+2,Scottish and Northern Irish Countryside,2b,"Rural Northern Ireland, Remoter Scotland and Glasgow Suburbs",2b1,Rural Northern Ireland,N09000011,North Down and Ards,Northern Ireland
+2,Scottish and Northern Irish Countryside,2b,"Rural Northern Ireland, Remoter Scotland and Glasgow Suburbs",2b2,Remoter Scotland and Glasgow Suburbs,S12000034,Aberdeenshire,Scotland
+2,Scottish and Northern Irish Countryside,2b,"Rural Northern Ireland, Remoter Scotland and Glasgow Suburbs",2b2,Remoter Scotland and Glasgow Suburbs,S12000013,Comhairlie nan Eilean Siar,Scotland
+2,Scottish and Northern Irish Countryside,2b,"Rural Northern Ireland, Remoter Scotland and Glasgow Suburbs",2b2,Remoter Scotland and Glasgow Suburbs,S12000045,East Dunbartonshire,Scotland
+2,Scottish and Northern Irish Countryside,2b,"Rural Northern Ireland, Remoter Scotland and Glasgow Suburbs",2b2,Remoter Scotland and Glasgow Suburbs,S12000011,East Renfrewshire,Scotland
+2,Scottish and Northern Irish Countryside,2b,"Rural Northern Ireland, Remoter Scotland and Glasgow Suburbs",2b2,Remoter Scotland and Glasgow Suburbs,S12000023,Orkney Islands,Scotland
+2,Scottish and Northern Irish Countryside,2b,"Rural Northern Ireland, Remoter Scotland and Glasgow Suburbs",2b2,Remoter Scotland and Glasgow Suburbs,S12000027,Shetland Islands,Scotland
+3,London Cosmopolitan,3a,London Cosmopolitan Suburbia,3a1,Cosmopolitan North London,E09000005,Brent,London
+3,London Cosmopolitan,3a,London Cosmopolitan Suburbia,3a1,Cosmopolitan North London,E09000009,Ealing,London
+3,London Cosmopolitan,3a,London Cosmopolitan Suburbia,3a1,Cosmopolitan North London,E09000018,Hounslow,London
+3,London Cosmopolitan,3a,London Cosmopolitan Suburbia,3a1,Cosmopolitan North London,E09000025,Newham,London
+3,London Cosmopolitan,3a,London Cosmopolitan Suburbia,3a1,Cosmopolitan North London,E09000031,Waltham Forest,London
+3,London Cosmopolitan,3a,London Cosmopolitan Suburbia,3a2,Cosmopolitan South London,E09000011,Greenwich,London
+3,London Cosmopolitan,3a,London Cosmopolitan Suburbia,3a2,Cosmopolitan South London,E09000023,Lewisham,London
+3,London Cosmopolitan,3a,London Cosmopolitan Suburbia,3a2,Cosmopolitan South London,E09000024,Merton,London
+3,London Cosmopolitan,3b,London Cosmopolitan Central,3b1,Cosmopolitan Inner London,E09000007,Camden,London
+3,London Cosmopolitan,3b,London Cosmopolitan Central,3b1,Cosmopolitan Inner London,E09000012,Hackney,London
+3,London Cosmopolitan,3b,London Cosmopolitan Central,3b1,Cosmopolitan Inner London,E09000013,Hammersmith and Fulham,London
+3,London Cosmopolitan,3b,London Cosmopolitan Central,3b1,Cosmopolitan Inner London,E09000019,Islington,London
+3,London Cosmopolitan,3b,London Cosmopolitan Central,3b1,Cosmopolitan Inner London,E09000022,Lambeth,London
+3,London Cosmopolitan,3b,London Cosmopolitan Central,3b1,Cosmopolitan Inner London,E09000028,Southwark,London
+3,London Cosmopolitan,3b,London Cosmopolitan Central,3b1,Cosmopolitan Inner London,E09000030,Tower Hamlets,London
+3,London Cosmopolitan,3b,London Cosmopolitan Central,3b1,Cosmopolitan Inner London,E09000032,Wandsworth,London
+3,London Cosmopolitan,3b,London Cosmopolitan Central,3b2,Cosmopolitan Heart of London,E09000001,City of London/Westminster,London
+3,London Cosmopolitan,3b,London Cosmopolitan Central,3b2,Cosmopolitan Heart of London,E09000033,City of London/Westminster,London
+3,London Cosmopolitan,3b,London Cosmopolitan Central,3b2,Cosmopolitan Heart of London,E09000014,Haringey,London
+3,London Cosmopolitan,3b,London Cosmopolitan Central,3b2,Cosmopolitan Heart of London,E09000020,Kensington and Chelsea,London
+4,Suburban Traits,4a,Growth Areas and Cities,4a1,City Periphery,E09000004,Bexley,London
+4,Suburban Traits,4a,Growth Areas and Cities,4a1,City Periphery,E09000006,Bromley,London
+4,Suburban Traits,4a,Growth Areas and Cities,4a1,City Periphery,E09000016,Havering,London
+4,Suburban Traits,4a,Growth Areas and Cities,4a1,City Periphery,E07000098,Hertsmere,East
+4,Suburban Traits,4a,Growth Areas and Cities,4a1,City Periphery,E07000092,Rushmoor,South East
+4,Suburban Traits,4a,Growth Areas and Cities,4a1,City Periphery,E06000033,Southend-on-Sea,East
+4,Suburban Traits,4a,Growth Areas and Cities,4a1,City Periphery,E07000213,Spelthorne,South East
+4,Suburban Traits,4a,Growth Areas and Cities,4a1,City Periphery,E09000029,Sutton,London
+4,Suburban Traits,4a,Growth Areas and Cities,4a1,City Periphery,E08000009,Trafford,North West
+4,Suburban Traits,4a,Growth Areas and Cities,4a1,City Periphery,E07000103,Watford,East
+4,Suburban Traits,4a,Growth Areas and Cities,4a1,City Periphery,E07000217,Woking,South East
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E06000055,Bedford,East
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E08000032,Bradford,Yorkshire and The Humber
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E07000095,Broxbourne,East
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E07000226,Crawley,South East
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E07000107,Dartford,South East
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E06000015,Derby,East Midlands
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E07000109,Gravesham,South East
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E07000073,Harlow,East
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E07000202,Ipswich,East
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E06000035,Medway,South East
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E06000042,Milton Keynes,South East
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E07000154,Northampton,East Midlands
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E06000031,Peterborough,East
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E08000028,Sandwell,West Midlands
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E07000243,Stevenage,East
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E06000030,Swindon,South West
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E06000034,Thurrock,East
+4,Suburban Traits,4a,Growth Areas and Cities,4a2,Expanding Areas and Established Cities,E08000031,Wolverhampton,West Midlands
+4,Suburban Traits,4b,Multicultural Suburbs,4b1,Multicultural Suburbs,E09000002,Barking and Dagenham,London
+4,Suburban Traits,4b,Multicultural Suburbs,4b1,Multicultural Suburbs,E09000003,Barnet,London
+4,Suburban Traits,4b,Multicultural Suburbs,4b1,Multicultural Suburbs,E09000008,Croydon,London
+4,Suburban Traits,4b,Multicultural Suburbs,4b1,Multicultural Suburbs,E09000010,Enfield,London
+4,Suburban Traits,4b,Multicultural Suburbs,4b1,Multicultural Suburbs,E09000015,Harrow,London
+4,Suburban Traits,4b,Multicultural Suburbs,4b1,Multicultural Suburbs,E09000017,Hillingdon,London
+4,Suburban Traits,4b,Multicultural Suburbs,4b1,Multicultural Suburbs,E06000032,Luton,East
+4,Suburban Traits,4b,Multicultural Suburbs,4b1,Multicultural Suburbs,E09000026,Redbridge,London
+4,Suburban Traits,4b,Multicultural Suburbs,4b1,Multicultural Suburbs,E09000027,Richmond upon Thames,London
+4,Suburban Traits,4b,Multicultural Suburbs,4b1,Multicultural Suburbs,E06000039,Slough,South East
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,N09000003,Belfast,Northern Ireland
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E08000025,Birmingham,West Midlands
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E06000023,"Bristol, City of",South West
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,W06000015,Cardiff,Wales
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E08000026,Coventry,West Midlands
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,S12000042,Dundee City,Scotland
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E07000041,Exeter,South West
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E06000010,"Kingston upon Hull, City of",Yorkshire and The Humber
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E08000035,Leeds,Yorkshire and The Humber
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E06000016,Leicester,East Midlands
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E07000138,Lincoln,East Midlands
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E08000012,Liverpool,North West
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E08000021,Newcastle upon Tyne,North East
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E07000148,Norwich,East
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E06000018,Nottingham,East Midlands
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E06000044,Portsmouth,South East
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E07000123,Preston,North West
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E08000006,Salford,North West
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E08000019,Sheffield,Yorkshire and The Humber
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E06000045,Southampton,South East
+5,Business and Education Centres,5a,Business and Education Centres,5a1,Business Centres,E07000241,Welwyn Hatfield,East
+5,Business and Education Centres,5a,Business and Education Centres,5a2,Education Centres,S12000033,Aberdeen City,Scotland
+5,Business and Education Centres,5a,Business and Education Centres,5a2,Education Centres,E06000028,Bournemouth,South West
+5,Business and Education Centres,5a,Business and Education Centres,5a2,Education Centres,E06000043,Brighton and Hove,South East
+5,Business and Education Centres,5a,Business and Education Centres,5a2,Education Centres,E07000008,Cambridge,East
+5,Business and Education Centres,5a,Business and Education Centres,5a2,Education Centres,S12000036,City of Edinburgh,Scotland
+5,Business and Education Centres,5a,Business and Education Centres,5a2,Education Centres,S12000046,Glasgow City,Scotland
+5,Business and Education Centres,5a,Business and Education Centres,5a2,Education Centres,E09000021,Kingston upon Thames,London
+5,Business and Education Centres,5a,Business and Education Centres,5a2,Education Centres,E08000003,Manchester,North West
+5,Business and Education Centres,5a,Business and Education Centres,5a2,Education Centres,E07000178,Oxford,South East
+5,Business and Education Centres,5a,Business and Education Centres,5a2,Education Centres,E06000038,Reading,South East
+6,Coast and Heritage,6a,Coastal Resorts and Services,6a1,Resorts and Ports,E07000224,Arun,South East
+6,Coast and Heritage,6a,Coastal Resorts and Services,6a1,Resorts and Ports,E07000108,Dover,South East
+6,Coast and Heritage,6a,Coastal Resorts and Services,6a1,Resorts and Ports,E07000061,Eastbourne,South East
+6,Coast and Heritage,6a,Coastal Resorts and Services,6a1,Resorts and Ports,E07000062,Hastings,South East
+6,Coast and Heritage,6a,Coastal Resorts and Services,6a1,Resorts and Ports,E06000026,Plymouth,South West
+6,Coast and Heritage,6a,Coastal Resorts and Services,6a1,Resorts and Ports,E06000029,Poole,South West
+6,Coast and Heritage,6a,Coastal Resorts and Services,6a1,Resorts and Ports,E07000112,Shepway,South East
+6,Coast and Heritage,6a,Coastal Resorts and Services,6a1,Resorts and Ports,E07000114,Thanet,South East
+6,Coast and Heritage,6a,Coastal Resorts and Services,6a1,Resorts and Ports,E06000027,Torbay,South West
+6,Coast and Heritage,6a,Coastal Resorts and Services,6a1,Resorts and Ports,E07000229,Worthing,South East
+6,Coast and Heritage,6a,Coastal Resorts and Services,6a2,Coastal and Rural,E06000009,Blackpool,North West
+6,Coast and Heritage,6a,Coastal Resorts and Services,6a2,Coastal and Rural,E07000225,Chichester,South East
+6,Coast and Heritage,6a,Coastal Resorts and Services,6a2,Coastal and Rural,E07000145,Great Yarmouth,East
+6,Coast and Heritage,6a,Coastal Resorts and Services,6a2,Coastal and Rural,E06000046,Isle of Wight,South East
+6,Coast and Heritage,6a,Coastal Resorts and Services,6a2,Coastal and Rural,E07000168,Scarborough,Yorkshire and The Humber
+6,Coast and Heritage,6a,Coastal Resorts and Services,6a2,Coastal and Rural,E07000190,Taunton Deane,South West
+6,Coast and Heritage,6a,Coastal Resorts and Services,6a2,Coastal and Rural,E07000053,Weymouth and Portland,South West
+6,Coast and Heritage,6b,Heritage Centres,6b1,Heritage Centres,E06000022,Bath and North East Somerset,South West
+6,Coast and Heritage,6b,Heritage Centres,6b1,Heritage Centres,E07000106,Canterbury,South East
+6,Coast and Heritage,6b,Heritage Centres,6b1,Heritage Centres,W06000008,Ceredigion,Wales
+6,Coast and Heritage,6b,Heritage Centres,6b1,Heritage Centres,E07000078,Cheltenham,South West
+6,Coast and Heritage,6b,Heritage Centres,6b1,Heritage Centres,E07000071,Colchester,East
+6,Coast and Heritage,6b,Heritage Centres,6b1,Heritage Centres,W06000002,Gwynedd,Wales
+6,Coast and Heritage,6b,Heritage Centres,6b1,Heritage Centres,E07000121,Lancaster,North West
+6,Coast and Heritage,6b,Heritage Centres,6b1,Heritage Centres,W06000011,Swansea,Wales
+6,Coast and Heritage,6b,Heritage Centres,6b1,Heritage Centres,E07000237,Worcester,West Midlands
+6,Coast and Heritage,6b,Heritage Centres,6b1,Heritage Centres,E06000014,York,Yorkshire and The Humber
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000004,Aylesbury Vale,South East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E06000056,Central Bedfordshire,East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000070,Chelmsford,East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000009,East Cambridgeshire,East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000085,East Hampshire,South East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000242,East Hertfordshire,East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000086,Eastleigh,South East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000165,Harrogate,Yorkshire and The Humber
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000089,Hart,South East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000227,Horsham,South East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000011,Huntingdonshire,East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000110,Maidstone,South East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000228,Mid Sussex,South East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000210,Mole Valley,South East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000111,Sevenoaks,South East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E06000025,South Gloucestershire,South West
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000155,South Northamptonshire,East Midlands
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000179,South Oxfordshire,South East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000214,Surrey Heath,South East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000215,Tandridge,South East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000093,Test Valley,South East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000115,Tonbridge and Malling,South East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000077,Uttlesford,East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000180,Vale of White Horse,South East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E06000037,West Berkshire,South East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E07000181,West Oxfordshire,South East
+7,Prosperous England,7a,Prosperous England,7a1,Prosperous Country,E06000054,Wiltshire,South West
+7,Prosperous England,7a,Prosperous England,7a2,Prosperous Towns,E07000130,Charnwood,East Midlands
+7,Prosperous England,7a,Prosperous England,7a2,Prosperous Towns,E07000005,Chiltern,South East
+7,Prosperous England,7a,Prosperous England,7a2,Prosperous Towns,E07000207,Elmbridge,South East
+7,Prosperous England,7a,Prosperous England,7a2,Prosperous Towns,E07000208,Epsom and Ewell,South East
+7,Prosperous England,7a,Prosperous England,7a2,Prosperous Towns,E07000209,Guildford,South East
+7,Prosperous England,7a,Prosperous England,7a2,Prosperous Towns,E07000166,Richmondshire,Yorkshire and The Humber
+7,Prosperous England,7a,Prosperous England,7a2,Prosperous Towns,E07000212,Runnymede,South East
+7,Prosperous England,7a,Prosperous England,7a2,Prosperous Towns,E07000176,Rushcliffe,East Midlands
+7,Prosperous England,7a,Prosperous England,7a2,Prosperous Towns,E08000029,Solihull,West Midlands
+7,Prosperous England,7a,Prosperous England,7a2,Prosperous Towns,E07000006,South Bucks,South East
+7,Prosperous England,7a,Prosperous England,7a2,Prosperous Towns,E07000012,South Cambridgeshire,East
+7,Prosperous England,7a,Prosperous England,7a2,Prosperous Towns,E07000240,St Albans,East
+7,Prosperous England,7a,Prosperous England,7a2,Prosperous Towns,E07000222,Warwick,West Midlands
+7,Prosperous England,7a,Prosperous England,7a2,Prosperous Towns,E07000216,Waverley,South East
+7,Prosperous England,7a,Prosperous England,7a2,Prosperous Towns,E07000094,Winchester,South East
+7,Prosperous England,7a,Prosperous England,7a2,Prosperous Towns,E06000040,Windsor and Maidenhead,South East
+7,Prosperous England,7a,Prosperous England,7a2,Prosperous Towns,E06000041,Wokingham,South East
+7,Prosperous England,7a,Prosperous England,7a3,Prosperous Home Counties and Rugby,E07000105,Ashford,South East
+7,Prosperous England,7a,Prosperous England,7a3,Prosperous Home Counties and Rugby,E07000084,Basingstoke and Deane,South East
+7,Prosperous England,7a,Prosperous England,7a3,Prosperous Home Counties and Rugby,E06000036,Bracknell Forest,South East
+7,Prosperous England,7a,Prosperous England,7a3,Prosperous Home Counties and Rugby,E07000067,Braintree,East
+7,Prosperous England,7a,Prosperous England,7a3,Prosperous Home Counties and Rugby,E07000068,Brentwood,East
+7,Prosperous England,7a,Prosperous England,7a3,Prosperous Home Counties and Rugby,E07000177,Cherwell,South East
+7,Prosperous England,7a,Prosperous England,7a3,Prosperous Home Counties and Rugby,E07000096,Dacorum,East
+7,Prosperous England,7a,Prosperous England,7a3,Prosperous Home Counties and Rugby,E07000072,Epping Forest,East
+7,Prosperous England,7a,Prosperous England,7a3,Prosperous Home Counties and Rugby,E07000201,Forest Heath,East
+7,Prosperous England,7a,Prosperous England,7a3,Prosperous Home Counties and Rugby,E07000099,North Hertfordshire,East
+7,Prosperous England,7a,Prosperous England,7a3,Prosperous Home Counties and Rugby,E07000211,Reigate and Banstead,South East
+7,Prosperous England,7a,Prosperous England,7a3,Prosperous Home Counties and Rugby,E07000220,Rugby,West Midlands
+7,Prosperous England,7a,Prosperous England,7a3,Prosperous Home Counties and Rugby,E07000102,Three Rivers,East
+7,Prosperous England,7a,Prosperous England,7a3,Prosperous Home Counties and Rugby,E07000116,Tunbridge Wells,South East
+7,Prosperous England,7a,Prosperous England,7a3,Prosperous Home Counties and Rugby,E07000007,Wycombe,South East
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a1,Expanding Towns and Manufacturing Areas,E07000066,Basildon,East
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a1,Expanding Towns and Manufacturing Areas,E07000136,Boston,East Midlands
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a1,Expanding Towns and Manufacturing Areas,E07000172,Broxtowe,East Midlands
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a1,Expanding Towns and Manufacturing Areas,E07000150,Corby,East Midlands
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a1,Expanding Towns and Manufacturing Areas,E07000193,East Staffordshire,West Midlands
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a1,Expanding Towns and Manufacturing Areas,E07000081,Gloucester,South West
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a1,Expanding Towns and Manufacturing Areas,E07000088,Gosport,South East
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a1,Expanding Towns and Manufacturing Areas,E07000153,Kettering,East Midlands
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a1,Expanding Towns and Manufacturing Areas,E07000236,Redditch,West Midlands
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a1,Expanding Towns and Manufacturing Areas,E06000020,Telford and Wrekin,West Midlands
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a1,Expanding Towns and Manufacturing Areas,E07000156,Wellingborough,East Midlands
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a2,Manufacturing Centres,E06000008,Blackburn with Darwen,North West
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a2,Manufacturing Centres,E08000001,Bolton,North West
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a2,Manufacturing Centres,E07000117,Burnley,North West
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a2,Manufacturing Centres,E08000002,Bury,North West
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a2,Manufacturing Centres,E08000033,Calderdale,Yorkshire and The Humber
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a2,Manufacturing Centres,E07000120,Hyndburn,North West
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a2,Manufacturing Centres,E08000034,Kirklees,Yorkshire and The Humber
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a2,Manufacturing Centres,E06000002,Middlesbrough,North East
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a2,Manufacturing Centres,W06000022,Newport,Wales
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a2,Manufacturing Centres,E08000004,Oldham,North West
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a2,Manufacturing Centres,E07000122,Pendle,North West
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a2,Manufacturing Centres,E08000005,Rochdale,North West
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a2,Manufacturing Centres,E06000021,Stoke-on-Trent,West Midlands
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a2,Manufacturing Centres,E08000008,Tameside,North West
+8,Mining Heritage and Manufacturing,8a,Manufacturing Traits,8a2,Manufacturing Centres,E08000030,Walsall,West Midlands
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b1,Mining Heritage and Semi-Rural,E07000223,Adur,South East
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b1,Mining Heritage and Semi-Rural,E07000028,Carlisle,North West
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b1,Mining Heritage and Semi-Rural,E07000034,Chesterfield,East Midlands
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b1,Mining Heritage and Semi-Rural,E06000005,Darlington,North East
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b1,Mining Heritage and Semi-Rural,E08000017,Doncaster,Yorkshire and The Humber
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b1,Mining Heritage and Semi-Rural,E08000037,Gateshead,North East
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b1,Mining Heritage and Semi-Rural,E06000012,North East Lincolnshire,Yorkshire and The Humber
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b1,Mining Heritage and Semi-Rural,E06000013,North Lincolnshire,Yorkshire and The Humber
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b1,Mining Heritage and Semi-Rural,E08000022,North Tyneside,North East
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b1,Mining Heritage and Semi-Rural,E08000014,Sefton,North West
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b1,Mining Heritage and Semi-Rural,E07000113,Swale,South East
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b1,Mining Heritage and Semi-Rural,W06000014,Vale of Glamorgan,Wales
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b1,Mining Heritage and Semi-Rural,E08000015,Wirral,North West
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b2,Mining Heritage and Industry,E07000027,Barrow-in-Furness,North West
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b2,Mining Heritage and Industry,W06000019,Blaenau Gwent,Wales
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b2,Mining Heritage and Industry,W06000013,Bridgend,Wales
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b2,Mining Heritage and Industry,W06000018,Caerphilly,Wales
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b2,Mining Heritage and Industry,E06000047,County Durham,North East
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b2,Mining Heritage and Industry,E06000006,Halton,North West
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b2,Mining Heritage and Industry,E06000001,Hartlepool,North East
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b2,Mining Heritage and Industry,E08000011,Knowsley,North West
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b2,Mining Heritage and Industry,W06000024,Merthyr Tydfil,Wales
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b2,Mining Heritage and Industry,W06000012,Neath Port Talbot,Wales
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b2,Mining Heritage and Industry,E06000003,Redcar and Cleveland,North East
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b2,Mining Heritage and Industry,W06000016,Rhondda Cynon Taf,Wales
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b2,Mining Heritage and Industry,E08000023,South Tyneside,North East
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b2,Mining Heritage and Industry,E08000013,St. Helens,North West
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b2,Mining Heritage and Industry,E08000024,Sunderland,North East
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b2,Mining Heritage and Industry,W06000020,Torfaen,Wales
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E07000170,Ashfield,East Midlands
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E08000016,Barnsley,Yorkshire and The Humber
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E07000129,Blaby,East Midlands
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E07000033,Bolsover,East Midlands
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E07000192,Cannock Chase,West Midlands
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E08000027,Dudley,West Midlands
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E07000036,Erewash,East Midlands
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,W06000005,Flintshire,Wales
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E07000173,Gedling,East Midlands
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E07000090,Havant,South East
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E07000174,Mansfield,East Midlands
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E07000195,Newcastle-under-Lyme,West Midlands
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E07000219,Nuneaton and Bedworth,West Midlands
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E07000125,Rossendale,North West
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E08000018,Rotherham,Yorkshire and The Humber
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E08000007,Stockport,North West
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E06000004,Stockton-on-Tees,North East
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E07000199,Tamworth,West Midlands
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E08000036,Wakefield,Yorkshire and The Humber
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E06000007,Warrington,North West
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,E08000010,Wigan,North West
+8,Mining Heritage and Manufacturing,8b,Mining Heritage,8b3,Mining Heritage and Manufacturing,W06000006,Wrexham,Wales
