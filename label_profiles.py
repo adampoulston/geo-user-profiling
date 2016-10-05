@@ -90,7 +90,7 @@ def label_profiles(profiles_directory):
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description = "Script to label a directory of twitter profiles with demographics.")
-    parser.add_argument('--inputfile', type=str, required = True, help = "Directory of raw Twitter user object in JSON format.")
+    parser.add_argument('--profiles', type=str, required = True, help = "Directory of raw Twitter user object in JSON format.")
     arguments = parser.parse_args()
 
      
