@@ -24,7 +24,7 @@ Run data collection until you are satisfied with the number of profiles in your 
 ###Data labelling
 To label the profiles with LAC and OAC, run `label_profiles.py` with the directory containing the gathered profiles as input, e.g.:
 ```
-python label_profiles.py --profiles raw_data/profiles/
+python label_profiles.py --profiles raw_data/profiles/ --oasfdir shapefiles/oa_shapefile_dir/ --ladsfdir shapefiles/lad_shapefile_dir/ 
 ```
 a directory (`output_datasets`) will be created and populated with the two resulting datasets (OAC-P and LAC-P).
 

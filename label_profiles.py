@@ -6,7 +6,7 @@ from home_location_assigner import HomeLocationAssigner
 from lookup_boundary import BoundaryLookup
 import traceback
     
-def label_profiles(profiles_directory):  
+def label_profiles(profiles_directory, oa_sf_dir, lad_sf_dir):  
     # Load home location assigner to get coordinates from geolocated tweets
     hla = HomeLocationAssigner()
 
@@ -17,10 +17,22 @@ def label_profiles(profiles_directory):
         os.makedirs("output_datasets")
 
     # load in shapefiles for OAs and LADs
-    oa_shp_loc = "shapefiles/oa_boundaries/OA_2011_EW_BFE_V2"
+
+    oa_shp_loc = None
+    if not oa_sf_dir.endswith("/"):
+        oa_sf_dir = oa_sf_dir + "/"
+    for fname in os.listdir(oa_sf_dir):
+        if fname.endswith(".shp"):
+            oa_shp_loc = oa_sf_dir+fname.strip(".shp")
     oa_lookup = BoundaryLookup(oa_shp_loc)
 
-    lad_shp_loc = "shapefiles/lad_boundaries/LAD_DEC_2011_GB_BFE"
+
+    lad_shp_loc = None
+    if not lad_sf_dir.endswith("/"):
+        lad_sf_dir = lad_sf_dir + "/"
+    for fname in os.listdir(lad_sf_dir):
+        if fname.endswith(".shp"):
+            lad_shp_loc = lad_sf_dir+fname.strip(".shp")
     lad_lookup = BoundaryLookup(lad_shp_loc)
 
     # load mapping between output areas and output area classifications
@@ -91,8 +103,9 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description = "Script to label a directory of twitter profiles with demographics.")
     parser.add_argument('--profiles', type=str, required = True, help = "Directory of raw Twitter user object in JSON format.")
+    parser.add_argument('--oasfdir', type=str, required = True, help = "Directory containg output area shapefile.")
+    parser.add_argument('--ladsfdir', type=str, required = True, help = "Directory containg local authority district shapefile.")
+
     arguments = parser.parse_args()
 
-     
-       
-
+    label_profiles(arguments['profiles'], arguments['oasfdir'], arguments['ladsfdir'])
