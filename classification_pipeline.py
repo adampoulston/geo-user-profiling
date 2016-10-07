@@ -13,6 +13,7 @@ from random import shuffle
 import argparse
 from warnings import *
 from collections import Counter
+from linecache import getline
 
 #Regular expressions for stripping text
 url_re = re.compile(r"(http|ftp|https)(:\/\/)([\w\-_]+(?:(?:\.[\w\-_]+)+))([\w\-\.,@?^=%&amp;:\/~\+#]*[\w\-\@?^=%&amp;\/~\+#])?")
@@ -96,7 +97,7 @@ def assess_pipeline(test_docs, test_targets, pipeline):
     return result
 
 
-def run_cross_validation(input_docs, input_targets, folds=10):
+def run_cross_validation(input_indices, input_targets, folds=10):
     #TODO: add non stratify case
     kf = cross_validation.StratifiedKFold(input_targets, n_folds=folds, shuffle=True)
 
@@ -106,11 +107,13 @@ def run_cross_validation(input_docs, input_targets, folds=10):
     for train_index, test_index in kf:
         print "Beginning fold:",fold
         #extract testing docs and labels
-        test_docs = (input_docs[idx] for idx in test_index)
+        test_index = sorted(test_index, key=int)
+        test_docs = gather_docs(test_index)
         test_targets = (input_targets[idx] for idx in test_index)
 
         #extract training docs and labels
-        train_docs = (input_docs[idx] for idx in train_index)
+        test_index = sorted(train_index, key=int)
+        train_docs = gather_docs(train_index)
         train_targets = (input_targets[idx] for idx in train_index)
         print "Train/test split performed.\nBeginning training."
         pipeline = train_pipeline(train_docs, train_targets)
@@ -134,13 +137,10 @@ def gather_docs(indices):
             while idx < doc_idx:
                 f.readline()
                 idx += 1
-            line = f.readline().strip()
-            tweet = json.loads(line)
-            text = "<tweetboundary> " + " <tweetboundary> ".join([" ".join(t.split()) for t in tweet["tweets"]]).lower() + " <tweetboundary>"
-            docs.append(text)
-
-            idx += 1
-    return docs
+            line = f.readline().strip().lower()
+            line = json.loads(line)
+            line = "<tweetboundary> " + " <tweetboundary> ".join([" ".join(t.split()) for t in line["tweets"]]).lower() + " <tweetboundary>"
+            yield line
 
 def extract_label_subset(all_labels, target_number=2000, random=True):
     ''' Attempts to extract a balanced subset with target_number members of each label '''
@@ -189,13 +189,13 @@ def init():
     
     # Indices
     print "Gather label subset..."
-    subset_indices = sorted(extract_label_subset(labels,target_number=150), key=int)
+    subset_indices = sorted(extract_label_subset(labels,target_number=500), key=int)
     label_subset = [labels[idx] for idx in subset_indices]
-    print "Gathering documents subset..."
-    docs_subset = gather_docs(subset_indices)
-    print "Extracted subset with",len(subset_indices),"entries."
+    # print "Gathering documents subset..."
+    # docs_subset = gather_docs(subset_indices)
+    # print "Extracted subset with",len(subset_indices),"entries."
 
-    results = run_cross_validation(docs_subset,label_subset)
+    results = run_cross_validation(subset_indices,label_subset)
     print "Avg results:",np.mean(results)
 
 if __name__ == "__main__":
