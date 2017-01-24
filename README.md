@@ -1,10 +1,10 @@
 # User profiling with geo-located posts and demographic data
 This repo contains the data collection, profile labelling and classification scripts used to generate the results in the paper:
->User profiling with geo-located posts and demographic data
+>[User profiling with geo-located posts and demographic data](https://www.aclweb.org/anthology/W/W16/W16-56.pdf#page=55)
 
 >Adam Poulston, Mark Stevenson and Kalina Bontcheva
 
->NLP+CSS at EMNLP 2016 (To appear)
+>NLP+CSS at EMNLP 2016
 
 ##Setup
 ###Python
