@@ -3,12 +3,13 @@ import json
 from time import sleep
 from datetime import datetime
 import os
+import gzip
 
 # load keys from file handily named keys
 consumer_key, consumer_secret, access_token, access_token_secret = [key.strip() for key in open("keys")]
 
 def get_filename(dt):
-    fn = dt.strftime("%Y-%m-%d_%H")
+    fn = dt.strftime("%Y-%m-%d_%H") + ".gz"
     return fn
 
 # stream listener implementation
@@ -42,7 +43,6 @@ class StdOutListener(tweepy.StreamListener):
             '''Assess and store streamed tweet'''
             #load tweet into dictionary
             decoded = json.loads(data)
-            
             #check message is not empty/error
             if 'user' in decoded and 'text' in decoded:
                 #remove newlines but replace with character for thouroughness
@@ -54,7 +54,7 @@ class StdOutListener(tweepy.StreamListener):
                     self.fn = fn
                     try: self.fh.close()
                     except: pass
-                    self.fh = open(self.tweet_data_dir+self.fn,"a+", 0)
+                    self.fh = gzip.open(self.tweet_data_dir+self.fn,"a+")
 
                 #store tweet and user if geolocated and not seen yet
                 self.fh.write(out_data)
@@ -83,19 +83,17 @@ def main():
         #Listen on uk bounding box (change/remove if needed)
         GEO_UK = [-5.2281708717,49.9995286556,2.0106048584,59.2419967352]
         print "Viewing new tweets within",GEO_UK
-
+        wait_time = 30
         stream.filter(locations=GEO_UK)
 
     except KeyboardInterrupt:
         print "Exiting due to keyboard interrupt."
 
     except Exception, e:
-        #TODO: Handle this in a way that isn't terrible
-        #if an error occurs sleep until it go's away
-        # print "Error:",str(e)
-        # sleep(30)
-        # main()
-        raise
+        print "Error:",str(e)
+        sleep(wait_time)
+        wait_time += 30
+        main()
     finally:
         try: self.fh.close()
         except: pass
@@ -106,4 +104,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
