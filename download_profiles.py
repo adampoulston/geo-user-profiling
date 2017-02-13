@@ -1,4 +1,5 @@
-import tweepy #
+# -*- coding: UTF-8 -*-
+import tweepy
 import sqlite3
 from time import sleep
 from datetime import datetime
@@ -9,9 +10,10 @@ from random import shuffle
 import gzip
 
 data_dir = "raw_data/"
-profiles_dir = "gzipped_nssec_profiles/"
-dlu_file = "gzipped_nssec_downloaded_users"
-m_id = 806287101348155392
+profiles_dir = "profiles/"
+dlu_file = "downloaded_users"
+users_file = "some_users"
+m_id = None
 api = None
 
 def get_all_tweets(user_id, limit_calls=None, max_id=None):
@@ -42,13 +44,13 @@ def get_all_tweets(user_id, limit_calls=None, max_id=None):
                 if calls >= limit_calls:
                     break
 
-            #all subsiquent requests use the max_id param to prevent duplicates
+            #all subsequent requests use the max_id param to prevent duplicates
             new_tweets = api.user_timeline(id=user_id, count=per_call, max_id=oldest)
             calls += 1
             #save most recent tweets
             alltweets.extend(new_tweets)
 
-            #update the id of the oldest tweet less one
+            #update the id of the oldest tweet minus one
             oldest = alltweets[-1].id - 1
         print str(len(alltweets)), "tweets downloaded."
     else:
@@ -62,39 +64,52 @@ def main():
     auth.set_access_token(access_key, access_secret)
     api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
+    #create storage directories if they dont already exist
+    if not os.path.exists(data_dir):
+        os.makedirs(data_dir)
+    if not os.path.exists(data_dir):
+        os.makedirs(data_dir+profiles_dir)
 
-    print "Starting."
+    #read in set of profiles already downloaded
     with open(data_dir+dlu_file,"a+") as dled_users_handle:
         downloaded_users = set([int(line.strip().split(",")[0]) for line in dled_users_handle])
-    with open(data_dir+"new_users.txt") as users_to_dl_handle:
+
+    #grab a list of users to download, exluding those already grabbed
+    with open(data_dir+users_file) as users_to_dl_handle:
         users_to_download = [int(line.strip()) for line in users_to_dl_handle if int(line.strip()) not in downloaded_users]
-        shuffle(users_to_download)
+
+    #iterate list of usrs
     for uid in users_to_download:
         try:
+            #grab a users tweets, up to a maximum tweet id if wished (ie up to a certain time)
             alltweets = get_all_tweets(uid, max_id=m_id)
             if alltweets:
+                #write the full set of raw tweet json gathered to a gzipped text file, one tweet per line
                 with gzip.open(data_dir+profiles_dir+str(uid)+".gz","w+") as f:
                     for tweet in alltweets:
                         decoded = tweet._json
                         f.write(json.dumps(decoded)+"\n")
                         downloaded_users.add(uid)
+                    #write the user id to the downloaded users file
                     with open(data_dir+dlu_file,"a+",0) as dled_users_handle:
                         dled_users_handle.write(str(uid)+"\n")
             else:
+                #in case of no tweets, write user id and error to file
                 with open(data_dir+dlu_file,"a+",0) as dled_users_handle:
                     dled_users_handle.write(str(uid)+",no_tweets\n")
                 downloaded_users.add(uid)
+        
         except KeyboardInterrupt:
             raise KeyboardInterrupt()
+        
         except tweepy.TweepError, e:
             with open(data_dir+dlu_file,"a+") as dled_users_handle:
                 dled_users_handle.write(str(uid)+",exception:"+str(e)+"\n")
             downloaded_users.add(uid)
             print "Tweepy error:",str(e)
+        
         except Exception, e:
             raise
-
-
 
 
 if __name__ == '__main__':

@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 import tweepy
 import json
 from time import sleep
